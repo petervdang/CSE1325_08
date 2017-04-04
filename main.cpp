@@ -16,6 +16,7 @@ int main()
         cout << "0) Exit" << endl;
         cout << "1) Create Robot Part" << endl;
         cout << "2) List Robot Parts" << endl;
+	cout << "3) Create Robot Model" << endl;
         cin >> input;
         cin.ignore();
         cout << endl;
@@ -43,10 +44,18 @@ int main()
 
                 }
 
+		if (input == 3)
+		{
+			cout << endl;
+			shop.create_new_robot_model();
+			cout << endl;
+		}
+
                 cout << "What Do You Want To Do:" << endl;
                 cout << "0) Exit" << endl;
                 cout << "1) Create Robot Part" << endl;
                 cout << "2) List Robot Parts" << endl;
+	        cout << "3) Create Robot Model" << endl;
                 cin >> input;
                 cin.ignore();
                 cout << endl;

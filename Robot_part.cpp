@@ -36,10 +36,13 @@ class Robot_part
 		double getPower_available() {return power_available;}
 		int getBattery_compartments() {return battery_compartments;}
 		int getMax_arms() {return max_arms;}
+
 };
 
 
 
+
+/*
 class Arm : public Robot_part
 {
 	public:
@@ -70,7 +73,7 @@ class Head : public Robot_part
 
 };
 
-
+*/
 
 
 
